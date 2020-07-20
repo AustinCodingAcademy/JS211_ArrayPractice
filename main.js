@@ -86,11 +86,27 @@ console.log('popped cars', poppedCars)
 
 // .shift() **
 // Use the shift method to remove and console.log the first item in the array carsInReverse.
+let shiftCars = carsInReverse.shift()
+console.log('shifted cars', shiftCars)
 
 // .unshift() **
 // Use the unshift method to add a new type of car to the array carsInReverse.
+let unShiftCars = carsInReverse.unshift('Kia')
+console.log('unshift cars', unShiftCars)
 
 // .forEach() **
-// Create an array called numbers with the following items: 23, 45, 0, 2 Write code that will add 2 to each item in the array numbers.
+// Create an array called numbers with the following items: 23, 45, 0, 2 
+// Write code that will add 2 to each item in the array numbers.
+let numbers = [23, 45, 0, 2];
+numbers.forEach(myFunction)
 
-// .forEach() requires a function to be passed into it as its first argument. Build a function that will add 2 and then use .forEach() to pass each number into your freshly built function. const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]
+function myFunction(item, index, arr) {
+  arr[index] = item + 2;
+}
+
+console.log(numbers)
+
+// .forEach() requires a function to be passed into it as its first argument. 
+//Build a function that will add 2 and then use .forEach() to pass each number into your freshly built function. const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]
+
+
