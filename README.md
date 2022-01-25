@@ -49,7 +49,7 @@
 1. `.sort()`
    * Use the `sort` method to put the array `carsInReverse` into alphabetical order.
    * Based on the types of cars you used, predict which item in the array should be at index 0.
-   * Use the following code to confirm or reject your prediction: `console.log(carsInReverse.indexOf('yourPrediction'));`
+   * Use the following code to confirm or reject your prediction: `carsInReverse`
 1. `.slice()`
    * Create a `pets` array by copy/pasting the following: `const pets = ['dog', 'cat', 'fish', 'rabbit', 'snake', 'lizard', 'bird']`
    * Use the `slice` method to create a `reptiles` array with `snake` and `lizard` from the `pets` array.
