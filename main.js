@@ -49,7 +49,7 @@ pets.unshift('turtle')
 const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]
 
 const addTwo = (num, i, arr) => {
-    arr[i]= num + 2
-}
-numbers.forEach(addTwo)
+    arr[i]= num + 2}
+
+numbers.forEach(addTwo) 
     console.log(numbers)
