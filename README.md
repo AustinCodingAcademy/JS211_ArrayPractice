@@ -41,6 +41,10 @@
    * Use the `split` method to convert `stringOfCars` into an array called `carsFromString`.
    * Console.log the array you just created.
    * Run the program.
+
+
+   
+
     > BONUS: Go back and pass a comma (`','`) in as an argument to `.split()` to separate the cars into individual items in the array. This is called a *separator* and it can be any character you wish to separate strings by.
 1. `.reverse()`
    * Use the `reverse` method to create an array `carsInReverse` which is the array `totalCars` in reverse.
