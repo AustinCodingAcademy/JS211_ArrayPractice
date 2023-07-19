@@ -66,6 +66,9 @@ console.log(stringOfCars)
 //turn a string into an array
 const carsFromString = stringOfCars.split();
 console.log(carsFromString)
+//----
+
+
    
 
 
