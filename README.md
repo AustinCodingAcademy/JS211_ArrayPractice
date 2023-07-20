@@ -61,15 +61,18 @@
    - Console.log `removedReptiles` and `pets` and run the program.
 
 - Go back and add the string `'hamster'` in as a third parameter to your `splice` method, then run the program again and notice how the `pets` array has changed. Do you see how that works?
-
 1. `.pop()`
    - Use the `pop` method to remove the last item from the `pets` array, saving it to a variable called `removedPet`.
    - Console.log `removedPet` and `pets` and run the program.
 1. `.push()`
    - Use the `push` method to add `removedPet` back to the end of the `pets` array.
    - Console.log `pets` and run the program.
+
+
 1. `.shift()`
    - Use the `shift` method to remove and console.log the first item in the `pets` array.
+
+
 1. `.unshift()`
    - Use the `unshift` method to add the string `'turtle'` as the first item in the `pets` array.
    - Console.log the `pets` array and run the program. If all went according to plan, you should see `['turtle', 'cat', 'fish', 'rabbit', 'hamster', 'bird']`.

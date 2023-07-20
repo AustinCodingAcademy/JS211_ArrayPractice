@@ -152,6 +152,10 @@ console.log(removedPet)
 pets.push(removedPet);
 
 console.log(pets)
+//----
+
+
+
    
 
 
