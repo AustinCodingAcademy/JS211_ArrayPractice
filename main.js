@@ -143,6 +143,15 @@ console.log(removedPet)
 //----
 
 
+
+// `.push()`
+// - Use the `push` method to add `removedPet` back to the end of the `pets` array.
+// - Console.log `pets` and run the program.
+
+//take an item out of a string and move it back to the end of thte arrray.
+pets.push(removedPet);
+
+console.log(pets)
    
 
 
