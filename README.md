@@ -67,15 +67,12 @@
 1. `.push()`
    - Use the `push` method to add `removedPet` back to the end of the `pets` array.
    - Console.log `pets` and run the program.
-
-
 1. `.shift()`
    - Use the `shift` method to remove and console.log the first item in the `pets` array.
-
-
 1. `.unshift()`
    - Use the `unshift` method to add the string `'turtle'` as the first item in the `pets` array.
    - Console.log the `pets` array and run the program. If all went according to plan, you should see `['turtle', 'cat', 'fish', 'rabbit', 'hamster', 'bird']`.
+
 1. `.forEach()`
    - Create a numbers array by copy/pasting the following: `const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]`
    - Write code that will add 2 to each item in the array `numbers`.

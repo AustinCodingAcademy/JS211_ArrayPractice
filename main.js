@@ -122,8 +122,9 @@ console.log(pets)
 
 //take snake and lizard out of pets. store them as a new array in a new object
                               
-const removedReptiles = pets.splice(4, 5,);
-const removedReptilanBird = pets.splice(4, 5, 'Hamster');
+const removedReptiles = pets.splice(4, 5,'Hamster');
+
+
 
 console.log(removedReptiles)   //From what i can tell, by adding the string "Hamster" as the third perameter, the computer heard me tell it to use the fifth index as the reference, the replace the index that follow with hamtser, and add the replaced element to the remove reptiles array.
 console.log(pets)
@@ -155,12 +156,58 @@ console.log(pets)
 //----
 
 
+// `.shift()`
+//    - Use the `shift` method to remove and console.log the first item in the `pets` array.
 
-   
+//get the first item out of the arrray
+const firstItem = pets.shift();
+
+console.log(firstItem)
+console.log(pets)
+   //----
+
+   // `.unshift()`
+   // - Use the `unshift` method to add the string `'turtle'` as the first item in the `pets` array.
+   // - Console.log the `pets` array and run the program. If all went according to plan, you should see `['turtle', 'cat', 'fish', 'rabbit', 'hamster', 'bird']`.
+
+// 
+
+//add a new string as the first item of the array
+pets.unshift('Bird')
+pets.unshift('Turtle');
+console.log(pets)
+//----
 
 
+// `.forEach()`
+//    - Create a numbers array by copy/pasting the following: `const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34]`
+//    - Write code that will add 2 to each item in the array `numbers`.
+//      - `forEach` requires a function to be passed into it as its first argument.
+//      - Build a function called `addTwo` that can take in num, index, and arr as parameters—`(num, index, arr)`—and returns `num + 2` at each `index` of the `arr`.
+//      - Use `.forEach()` on the `numbers` array, passing in your freshly built function `addTwo` as an argument, in order to add 2 to each number in the array.
+//    - Console.log `numbers` and run the program.
 
-   
+//creating a numbers array
+//creating an add two HOF
+function addTwo(num, index, arr) {
+   return num + 2;
+}
+
+const numbers = [23, 45, 0, 2, 8, 44, 100, 1, 3, 91, 34];
+const sumOfTwoArray = [];
+
+
+numbers.forEach((num, index, arr) => {
+   const newNum = addTwo(num, index, arr);
+   sumOfTwoArray.push(newNum)
+});
+console.log(sumOfTwoArray)
+
+
+//i need to go into the array, get the item(number). add 2 to each individual index.
+// use for reach() to access the individual arrays
+// set a function as the forEach() parameters
+//this function will need to add two numbers, i will need to do this first. 
 
 
 
